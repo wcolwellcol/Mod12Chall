@@ -18,15 +18,9 @@ Model 2:
 The same process as Model 1 was followed except for the fact that unhealthy loans were oversampled utilizing the `RandomOverSampler` module from the imbalanced-learn library. Oversampling made more sense as a technique to use than undersampling given the size of our datasett (< 3k in minority group). The model was then fit on this resampled data and the same process utilized in Model 1 was followed from there on out.
 
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
-
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
+Below are the balanced accuracies, precision and recall scores for each of my models. Note the improved performance for Model 2 which utilized oversampled data.
 
 * Machine Learning Model 1:
   * Balanced Accuracy: 0.9520479254722232
